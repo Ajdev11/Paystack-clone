@@ -1,0 +1,10 @@
+export { default as CreateFreeAccount } from "./createFree";
+export { default as Login } from "./Login";
+export { default as Support } from "./Support";
+export { default as Developers } from "./Developers";
+export { default as Learn } from "./learn";
+export { default as Pricing } from "./Pricing";
+export { default as Customers } from "./Customers";
+export { default as WhyPaystack } from "./WhyPaystack";
+export { default as Home } from "./Home";
+export { default as Navigation } from "./Navigation";
