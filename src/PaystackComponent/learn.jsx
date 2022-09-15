@@ -1,11 +1,12 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 
 
 function Learn() {
   return (
     <div>
-     <h2>This is my learn page</h2>
+      <NavLink className="links"to="/pricing">Pricing</NavLink>
+
     </div>
   );
 }

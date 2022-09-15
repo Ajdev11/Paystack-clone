@@ -7,4 +7,3 @@ export { default as Pricing } from "./Pricing";
 export { default as Customers } from "./Customers";
 export { default as WhyPaystack } from "./WhyPaystack";
 export { default as Home } from "./Home";
-export { default as Navigation } from "./Navigation";

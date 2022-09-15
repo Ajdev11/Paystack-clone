@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./Paystack.css";
+import "./PaystackHome.css";
 import {
   Learn,
   Developers,
@@ -16,17 +16,20 @@ import {
 function App() {
   return (
     <div>
-      <Home />
       <Routes>
-        <Route path="/" element={<Home />} exact />
-        <Route path="/developers" element={<Developers />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/create free account" element={<CreateFreeAccount />} />
-        <Route path="/learn" element={<Learn />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/customers" element={<Customers />} />
-        <Route path="/whyPaystack" element={<WhyPaystack />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/developers" element={<Developers />} />
+        <Route exact path="/support" element={<Support />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route
+          exact
+          path="/create free account"
+          element={<CreateFreeAccount />}
+        />
+        <Route exact path="/learn" element={<Learn />} />
+        <Route exact path="/pricing" element={<Pricing />} />
+        <Route exact path="/customers" element={<Customers />} />
+        <Route exact path="/whyPaystack" element={<WhyPaystack />} />
       </Routes>
     </div>
   );
