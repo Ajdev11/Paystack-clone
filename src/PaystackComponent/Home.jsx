@@ -180,7 +180,7 @@ function Home() {
             <h2>Paystack for <br />
             Global Brands</h2>
             <p>We help global brands accept payments <br />
-            from across Africa</p>
+            from across Africa</p> <br />
             <Link id="gellink" to="/learn"> Learn</Link>
           </div>  
           <div className="GEL">

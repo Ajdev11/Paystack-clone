@@ -194,19 +194,19 @@ p {
 }
 .trusted{
   padding: 100px;
+  margin-left: -45px;
 }
 #GEL{
   display: flex;
-  justify-content: space-between;
-  padding: 100px;
-  margin-top: -170px;
+  justify-content: space-evenly;
 }
 .GEL{
   border: 1px solid #fff;
   border-radius: 5px;
   width: 380px;
-  height: 400px;
+  height: 380px;
   background-color: #fff;
+  margin-top: -60px;
 }
 #global-image{
   width: 100px;
