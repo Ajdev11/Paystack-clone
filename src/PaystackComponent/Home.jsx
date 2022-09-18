@@ -31,26 +31,116 @@ import {
   otto,
 } from "./Image";
 
-function Home() { 
+function Home() {
   const paystackImages = [
     {
       id: 1,
-      Title:<img id="dominos" src={Dominos} alt="dominos-icon" />
-    },{
+      Title: <img id="dominos" src={Dominos} alt="dominos-icon" />,
+    },
+    {
       id: 2,
-      Title:<img id="mtn" src={Mtn} alt="mtn-icon" />
+      Title: <img id="mtn" src={Mtn} alt="mtn-icon" />,
     },
     {
       id: 3,
-      Title:<img id="bolt" src={Bolt} alt="bolt-icon" />
+      Title: <img id="bolt" src={Bolt} alt="bolt-icon" />,
     },
     {
       id: 4,
-      Title:<img id="axa" src={Axa} alt="dominos-icon" />
+      Title: <img id="axa" src={Axa} alt="dominos-icon" />,
     },
   ];
-  const listIcons = paystackImages.map(img => 
-    <li key={img.id}>{img.Title}</li>)
+  const listIcons = paystackImages.map((img) => (
+    <li key={img.id}>{img.Title}</li>
+  ));
+  const PaystackImg = [
+    {
+      id: 5,
+      Title: <img src={AirPeace} alt="" />,
+    },
+    {
+      id: 6,
+      Title: <img src={filmHouse} alt="" />,
+    },
+    {
+      id: 7,
+      Title: <img src={Piggyvest} alt="" />,
+    },
+    {
+      id: 8,
+      Title: <img src={ibomAir} alt="" />,
+    },
+    {
+      id: 9,
+      Title: <img src={kuda} alt="" />,
+    },
+    {
+      id: 10,
+      Title: <img src={Ariiya} alt="" />,
+    },
+  ];
+  const ListImage2 = PaystackImg.map((img2) => (
+    <li key={img2.id}>{img2.Title}</li>
+  ));
+  const PaystackImg2 = [
+    {
+      id: 11,
+      Title: <img src={Dominos} alt="" />,
+    },
+    {
+      id: 12,
+      Title: <img src={Mtn} alt="" />,
+    },
+    {
+      id: 13,
+      Title: <img src={Lagos} alt="" />,
+    },
+    {
+      id: 14,
+      Title: <img src={Bolt} alt="" />,
+    },
+    {
+      id: 15,
+      Title: <img src={Mtn} alt="" />,
+    },
+    {
+      id: 16,
+      Title: <img src={carbon} alt="" />,
+    },
+  ];
+  const ListImage3 = PaystackImg2.map((img3) => (
+    <li key={img3.id}>{img3.Title}</li>
+  ));
+  const PaystackImg3 = [
+    {
+      id: 12,
+      Title: <img src={Axa} alt="" />,
+    },
+    {
+      id: 13,
+      Title: <img src={Abia} alt="" />,
+    },
+    {
+      id: 14,
+      Title: <img src={GIGM} alt="" />,
+    },
+    {
+      id: 15,
+      Title: <img src={IrokoTV} alt="" />,
+    },
+    {
+      id: 16,
+      Title: <img src={Smile} alt="" />,
+    },
+    {
+      id: 17,
+      Title: <img src={Cowrywise} alt="" />,
+    },
+  ];
+  const ListImage4 = PaystackImg3.map((img4) => (
+    <li key={img4.id}>{img4.Title}</li>
+  ));
+
   return (
     <div>
       <div className="bg-color">
@@ -88,9 +178,7 @@ function Home() {
             </span>
           </p>
           <h4>Trusted by over 60,000 businesses</h4>
-          <ul className="images">
-               {listIcons}
-          </ul>
+          <ul className="images">{listIcons}</ul>
         </div>
       </div>
       <div className="section-3">
@@ -267,66 +355,9 @@ function Home() {
           forward-looking organizations operating in Africa.
         </p>
         <div className="company-logos">
-          <ul id="comp-logos">
-            <li>
-              <img src={AirPeace} alt="" />
-            </li>
-            <li>
-              <img src={filmHouse} alt="" />
-            </li>
-            <li>
-              <img src={Piggyvest} alt="" />
-            </li>
-            <li>
-              <img src={ibomAir} alt="" />
-            </li>
-            <li>
-              <img src={kuda} alt="" />
-            </li>
-            <li>
-              <img src={Ariiya} alt="" />
-            </li>
-          </ul>
-          <ul id="comp-logos">
-            <li>
-              <img src={Dominos} alt="" />
-            </li>
-            <li>
-              <img src={Mtn} alt="" />
-            </li>
-            <li>
-              <img src={Lagos} alt="" />
-            </li>
-            <li>
-              <img src={Bolt} alt="" />
-            </li>
-            <li>
-              <img src={Mtn} alt="" />
-            </li>
-            <li>
-              <img src={carbon} alt="" />
-            </li>
-          </ul>
-          <ul id="comp-logos">
-            <li>
-              <img src={Axa} alt="" />
-            </li>
-            <li>
-              <img src={Abia} alt="" />
-            </li>
-            <li>
-              <img src={GIGM} alt="" />
-            </li>
-            <li>
-              <img src={IrokoTV} alt="" />
-            </li>
-            <li>
-              <img src={Smile} alt="" />
-            </li>
-            <li>
-              <img src={Cowrywise} alt="" />
-            </li>
-          </ul>
+          <ul id="comp-logos">{ListImage2}</ul>
+          <ul id="comp-logos">{ListImage3}</ul>
+          <ul id="comp-logos">{ListImage4}</ul>
         </div>
         <h1 id="globalPartner">
           Backed by strong global <br />

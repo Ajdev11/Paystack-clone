@@ -126,8 +126,7 @@ h1 {
   margin-left: 30px;
   margin-top: -80px;
 }
-.section-2 
-ul,
+.section-2 ul,
 .images {
   display: flex;
   list-style: none;
@@ -342,7 +341,7 @@ p,
   margin: 0px;
   line-height: 30px;
 }
-#footer-links{
+#footer-links {
   text-decoration: none;
   color: rgb(15, 15, 15);
 }
