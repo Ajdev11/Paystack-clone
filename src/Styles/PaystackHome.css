@@ -109,28 +109,29 @@ h1 {
   font-size: 20px;
   line-height: 30px;
 }
+.section-2{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  margin-top: 170px;
+}
 .section-2 p {
-  margin-top: 100px;
-  margin-left: 780px;
   font-size: 20px;
   color: rgb(15, 15, 15);
 }
 #mtn-officer {
-  margin: 75px;
+  float: right;
   line-height: 45px;
 }
 .section-2 h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 23px;
   font-weight: normal;
-  margin-left: 30px;
-  margin-top: -80px;
 }
 .section-2 ul,
 .images {
   display: flex;
   list-style: none;
-  margin: 30px;
   margin-top: 20px;
 }
 #dominos {

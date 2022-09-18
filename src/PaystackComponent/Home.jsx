@@ -171,14 +171,16 @@ function Home() {
           </div>
         </div>
         <div className="section-2">
+        <div>
+          <h4>Trusted by over 60,000 businesses</h4>
+          <ul className="images">{listIcons}</ul>
+          </div>
           <p>
             Watch MTN Chief Transformation Officer, Olubayo <br />
             <span id="mtn-officer">
               AdeKamnbi discuss working with Paystack
             </span>
           </p>
-          <h4>Trusted by over 60,000 businesses</h4>
-          <ul className="images">{listIcons}</ul>
         </div>
       </div>
       <div className="section-3">
