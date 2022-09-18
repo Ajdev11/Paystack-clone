@@ -1,11 +1,10 @@
 import React from 'react'
 
 
-
 function CreateFreeAccount() {
   return (
     <div>
-   
+     
     </div>
   )
 }

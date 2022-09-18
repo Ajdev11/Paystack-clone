@@ -35,9 +35,22 @@ function Home() {
   const paystackImages = [
     {
       id: 1,
-      title: "images",
+      Title:<img id="dominos" src={Dominos} alt="dominos-icon" />
+    },{
+      id: 2,
+      Title:<img id="mtn" src={Mtn} alt="mtn-icon" />
+    },
+    {
+      id: 3,
+      Title:<img id="bolt" src={Bolt} alt="bolt-icon" />
+    },
+    {
+      id: 4,
+      Title:<img id="axa" src={Axa} alt="dominos-icon" />
     },
   ];
+  const listIcons = paystackImages.map(img => 
+    <li key={img.id}>{img.Title}</li>)
   return (
     <div>
       <div className="bg-color">
@@ -76,14 +89,7 @@ function Home() {
           </p>
           <h4>Trusted by over 60,000 businesses</h4>
           <ul className="images">
-            {paystackImages.map((img) => (
-              <li key="id">
-                <img id="dominos" src={Dominos} alt="dominos-icon" />
-                <img id="mtn" src={Mtn} alt="mtn-icon" />
-                <img id="bolt" src={Bolt} alt="bolt-icon" />
-                <img id="axa" src={Axa} alt="axa-icon" />
-              </li>
-            ))}
+               {listIcons}
           </ul>
         </div>
       </div>
