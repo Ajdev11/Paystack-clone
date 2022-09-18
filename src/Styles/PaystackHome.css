@@ -1,11 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@100&display=swap");
+/*font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Montserrat', sans-serif;*/
 * {
   margin: 0px;
   padding: 0px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@100&display=swap');
-/*font-family: 'Edu NSW ACT Foundation', cursive;
-font-family: 'Montserrat', sans-serif;*/
 .bg-color {
   background-color: rgb(232, 242, 248);
   width: 100%;
@@ -15,6 +15,7 @@ font-family: 'Montserrat', sans-serif;*/
   display: flex;
 }
 #Names {
+  font-family: "Montserrat", sans-serif;
   margin-left: -33px;
   text-decoration: none;
   color: rgb(15, 15, 15);
@@ -26,6 +27,7 @@ font-family: 'Montserrat', sans-serif;*/
   margin: 30px;
 }
 .NavLinks {
+  font-family: "Montserrat", sans-serif;
   margin-top: 20px;
   margin-left: 5px;
   font-size: 19px;
@@ -37,6 +39,7 @@ font-family: 'Montserrat', sans-serif;*/
   font-weight: bold;
 }
 #right-nav {
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: rgb(15, 15, 15);
   font-size: 19px;
@@ -53,6 +56,7 @@ font-family: 'Montserrat', sans-serif;*/
   margin-top: -38px;
 }
 .create-free {
+  font-family: "Montserrat", sans-serif;
   border: 1px solid #fff;
   border-radius: 5px;
   width: 220px;
@@ -77,6 +81,7 @@ font-family: 'Montserrat', sans-serif;*/
   margin-top: 25px;
 }
 .sales-link {
+  font-family: "Montserrat", sans-serif;
   margin-top: 15px;
   margin-left: 30px;
   text-decoration: none;
@@ -88,8 +93,9 @@ font-family: 'Montserrat', sans-serif;*/
   font-weight: bolder;
 }
 .section-1,
-.section-4 .section-5 .section-6 .section-7,
+.section-4 .section-5 .section-6 .section-7 .section-8,
 h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
 }
 .section-1 {
@@ -98,6 +104,7 @@ h1 {
   color: rgb(15, 15, 15);
 }
 .section-1 p {
+  margin: 0px;
   margin-top: 25px;
   font-size: 20px;
   line-height: 30px;
@@ -105,7 +112,7 @@ h1 {
 .section-2 p {
   margin-top: 100px;
   margin-left: 780px;
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(15, 15, 15);
 }
 #mtn-officer {
@@ -113,6 +120,7 @@ h1 {
   line-height: 45px;
 }
 .section-2 h4 {
+  font-family: "Montserrat", sans-serif;
   font-size: 23px;
   font-weight: normal;
   margin-left: 30px;
@@ -143,10 +151,13 @@ ul,
   margin-top: 150px;
 }
 .section-3 h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 35px;
   color: rgb(27, 27, 43);
 }
 .section-3 p {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
   margin-top: 20px;
   color: rgb(89, 89, 104);
@@ -154,18 +165,27 @@ ul,
 #section-4 {
   background-color: rgb(232, 242, 248);
   width: 50%;
-  height: 770px;
+  height: 870px;
 }
-.section-4 .section-5 .section-6,
+.section-4 .section-5 .section-6 .section-8,
 p {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
   margin-top: 30px;
   word-spacing: 5px;
   line-height: 25px;
 }
+#Enjoy {
+  margin-top: 30px;
+}
+#Para {
+  margin: 0px;
+  margin-top: 30px;
+}
 .features-list {
   display: flex;
-  margin-top: 30px;
+  justify-content: space-between;
 }
 .features-list ul li,
 .feature-2 {
@@ -173,16 +193,21 @@ p {
   line-height: 50px;
   font-weight: bold;
   color: rgb(89, 89, 104);
+  margin: 0px;
+  margin-top: 30px;
 }
 .success-rate,
 .paymentAPI {
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: rgb(33, 179, 33);
   font-size: 19px;
 }
 .section-4,
 .section-5,
-.section-6 {
+.section-6,
+.section-10,
+#homeFooter {
   display: flex;
   justify-content: space-between;
   margin: 30px;
@@ -191,37 +216,153 @@ p {
 #detailed {
   margin-top: 60px;
 }
-.section-7{
+.section-7 {
   background-color: rgb(232, 242, 248);
   width: 100%;
   height: 700px;
 }
-.trusted{
+.trusted {
   padding: 100px;
   margin-left: -45px;
 }
-#GEL{
+#GEL {
   display: flex;
   justify-content: space-evenly;
 }
-.GEL{
+.GEL {
   border: 1px solid #fff;
   border-radius: 5px;
-  width: 380px;
+  width: 430px;
   height: 380px;
   background-color: #fff;
   margin-top: -60px;
 }
-#global-image{
+#global-image {
   width: 100px;
   height: 100px;
 }
-#global-image,h2, p, #gellink{
+#global-image,
+h2,
+p,
+#gellink {
+  font-family: "Montserrat", sans-serif;
   margin: 15px;
 }
-#gellink{
+#gellink {
   text-decoration: none;
   font-size: 19px;
   font-weight: bold;
   color: rgb(15, 15, 15);
-} 
+}
+.section-8 {
+  font-family: "Montserrat", sans-serif;
+  margin: 30px;
+  margin-top: 100px;
+}
+#comp-logos {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0px;
+  margin-top: 100px;
+}
+#comp-logos img {
+  height: 35px;
+}
+#globalPartner {
+  margin-top: 150px;
+}
+.stripeVisaY {
+  margin: 30px;
+  border: 1px solid rgb(232, 242, 248);
+  border-radius: 5px;
+  width: 330px;
+  height: 250px;
+  padding: 20px;
+  margin-top: 50px;
+}
+#Stripe {
+  width: 120px;
+  height: 40px;
+}
+#visa {
+  width: 80px;
+  height: 30px;
+}
+#y {
+  width: 30px;
+  height: 30px;
+}
+#ceoIcon {
+  width: 50px;
+  border-radius: 50px;
+  height: 50px;
+}
+.ceoTitle {
+  display: flex;
+  margin-top: 40px;
+}
+.pat-ceo {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+}
+.pat-ceo h6 {
+  margin-top: 10px;
+}
+.section-9 {
+  display: flex;
+  justify-content: space-between;
+}
+.section-9 p {
+  font-size: 15px;
+  margin: 0px;
+  margin-top: 20px;
+}
+.section-9 h6 {
+  font-weight: normal;
+  font-size: 13px;
+}
+.section-10 p {
+  margin: 0px;
+}
+.section-10 {
+  margin-top: 200px;
+}
+.try {
+  margin-top: -50px;
+}
+#homeFooter {
+  margin-top: 250px;
+}
+#homeFooter ul {
+  list-style: none;
+  margin: 0px;
+  line-height: 30px;
+}
+#footer-links{
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+#hello {
+  text-decoration: none;
+  color: skyblue;
+}
+#homeFooter h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+#homeFooter li {
+  font-size: 17px;
+}
+.footer4 #capetown {
+  margin-top: 255px;
+}
+.footer3 #san {
+  margin-top: 100px;
+}
+.footer2 #lagos {
+  margin-top: 70px;
+}
+.footer1 #ctn {
+  margin-top: 170px;
+}
