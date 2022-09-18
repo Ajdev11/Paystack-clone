@@ -14,79 +14,67 @@ font-family: 'Montserrat', sans-serif;*/
 .logo-name {
   display: flex;
 }
-#Names {
-  font-family: "Montserrat", sans-serif;
-  margin-left: -33px;
-  text-decoration: none;
-  color: rgb(15, 15, 15);
-  font-size: 35px;
-  font-weight: bolder;
-}
 .logo {
   height: 30px;
   margin: 30px;
 }
-.NavLinks {
-  font-family: "Montserrat", sans-serif;
-  margin-top: 20px;
-  margin-left: 5px;
-  font-size: 19px;
+.name {
+  margin-top: -15px;
+  margin-left: -55px;
 }
-.links {
+#Names {
+  text-decoration: none;
+  font-size: 40px;
+  color: rgb(15, 15, 15);
+  font-weight: bolder;
+}
+.navBars {
+  margin: 30px;
+  display: flex;
+}
+.links,
+#right-nav,
+.create-free {
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: rgb(15, 15, 15);
   margin: 12px;
-  font-weight: bold;
-}
-#right-nav {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  color: rgb(15, 15, 15);
   font-size: 19px;
-  margin: 12px;
-  font-weight: bold;
+}
+.NavLinks2 {
+  margin-left: 170px;
 }
 .links:hover,
 #right-nav:hover {
   color: rgb(7, 160, 221);
 }
-.NavLinks2 {
-  display: flex;
-  margin-left: 690px;
-  margin-top: -38px;
-}
 .create-free {
-  font-family: "Montserrat", sans-serif;
   border: 1px solid #fff;
   border-radius: 5px;
-  width: 220px;
-  height: 30px;
-  font-size: 19px;
-}
-#create-border {
-  text-decoration: none;
   color: #fff;
   background-color: rgb(33, 179, 33);
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+  padding: 15px;
 }
-#create-border:hover {
+#create-border:hover,
+#freeAccount:hover {
   background-color: rgb(7, 160, 221);
   color: rgb(15, 15, 15);
   font-weight: bold;
 }
 #links-create-sales {
   display: flex;
-  margin-top: 25px;
+  margin-top: 50px;
+}
+#freeAccount {
+  margin: 0px;
+  font-size: 25px;
 }
 .sales-link {
   font-family: "Montserrat", sans-serif;
-  margin-top: 15px;
-  margin-left: 30px;
   text-decoration: none;
   color: rgb(33, 179, 33);
   font-size: 20px;
+  margin-left: 30px;
 }
 .sales-link:hover {
   color: rgb(15, 15, 15);
@@ -109,11 +97,11 @@ h1 {
   font-size: 20px;
   line-height: 30px;
 }
-.section-2{
+.section-2 {
   display: flex;
   justify-content: space-between;
   margin: 30px;
-  margin-top: 170px;
+  margin-top: 100px;
 }
 .section-2 p {
   font-size: 20px;
@@ -332,7 +320,7 @@ p,
   margin-top: 200px;
 }
 .try {
-  margin-top: -50px;
+  margin-top: -70px;
 }
 #homeFooter {
   margin-top: 250px;

@@ -148,6 +148,7 @@ function Home() {
           <Logo />
           <Navigation />
         </div>
+        
         <div className="section-1">
           <h1>
             Modern Online and Offline <br />
@@ -158,16 +159,19 @@ function Home() {
             anywhere in the world
           </p>
           <div id="links-create-sales">
-            <NavLink
-              id="create-border"
-              className="create-free"
+            <div>
+            <NavLink className="create-free"
+             id="freeAccount"
               to="/create free account"
             >
               Create free account
             </NavLink>
+            </div>
+            <div>
             <NavLink className="sales-link" to="/contact Sales">
               Or Contact sales
             </NavLink>
+            </div>
           </div>
         </div>
         <div className="section-2">
