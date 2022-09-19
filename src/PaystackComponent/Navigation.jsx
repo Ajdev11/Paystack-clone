@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <div className="navBars">
       <div className="name">
-      <Link id="Names" to="/">
+        <Link id="Names" to="/">
           paystack
         </Link>
       </div>
@@ -22,8 +22,8 @@ function Navigation() {
         <Link className="links" to="/learn">
           Learn
         </Link>
-        </div>
-        <div className="NavLinks2">
+      </div>
+      <div className="NavLinks2">
         <Link id="right-nav" to="/developers">
           Developers
         </Link>

@@ -148,7 +148,6 @@ function Home() {
           <Logo />
           <Navigation />
         </div>
-        
         <div className="section-1">
           <h1>
             Modern Online and Offline <br />
@@ -160,24 +159,25 @@ function Home() {
           </p>
           <div id="links-create-sales">
             <div>
-            <NavLink className="create-free"
-             id="freeAccount"
-              to="/create free account"
-            >
-              Create free account
-            </NavLink>
+              <NavLink
+                className="create-free"
+                id="freeAccount"
+                to="/create free account"
+              >
+                Create free account
+              </NavLink>
             </div>
             <div>
-            <NavLink className="sales-link" to="/contact Sales">
-              Or Contact sales
-            </NavLink>
+              <NavLink className="sales-link" to="/contact Sales">
+                Or Contact sales
+              </NavLink>
             </div>
           </div>
         </div>
         <div className="section-2">
-        <div>
-          <h4>Trusted by over 60,000 businesses</h4>
-          <ul className="images">{listIcons}</ul>
+          <div>
+            <h4>Trusted by over 60,000 businesses</h4>
+            <ul className="images">{listIcons}</ul>
           </div>
           <p>
             Watch MTN Chief Transformation Officer, Olubayo <br />
