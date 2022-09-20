@@ -46,7 +46,7 @@ function Navigation() {
       <div className="nation-icon">
       <Link
         to="/flag">
-        <img id="flag" src={naija} alt="" />
+        <img id="flag" src={naija} alt="NigeriaFlag" />
         </Link>
       </div>
     </div>

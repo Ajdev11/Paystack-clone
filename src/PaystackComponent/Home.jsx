@@ -59,27 +59,27 @@ function Home() {
   const PaystackImg = [
     {
       id: 5,
-      Title: <img src={AirPeace} alt="" />,
+      Title: <img src={AirPeace} alt="Airpeace" />,
     },
     {
       id: 6,
-      Title: <img src={filmHouse} alt="" />,
+      Title: <img src={filmHouse} alt="FilmHouse" />,
     },
     {
       id: 7,
-      Title: <img src={Piggyvest} alt="" />,
+      Title: <img src={Piggyvest} alt="Piggyvest" />,
     },
     {
       id: 8,
-      Title: <img src={ibomAir} alt="" />,
+      Title: <img src={ibomAir} alt="ibomAir" />,
     },
     {
       id: 9,
-      Title: <img src={kuda} alt="" />,
+      Title: <img src={kuda} alt="kuda" />,
     },
     {
       id: 10,
-      Title: <img src={Ariiya} alt="" />,
+      Title: <img src={Ariiya} alt="ariiya" />,
     },
   ];
   const ListImage2 = PaystackImg.map((img2) => (
@@ -88,27 +88,27 @@ function Home() {
   const PaystackImg2 = [
     {
       id: 11,
-      Title: <img src={Dominos} alt="" />,
+      Title: <img src={Dominos} alt="dominos" />,
     },
     {
       id: 12,
-      Title: <img src={Mtn} alt="" />,
+      Title: <img src={Mtn} alt="mtn" />,
     },
     {
       id: 13,
-      Title: <img src={Lagos} alt="" />,
+      Title: <img src={Lagos} alt="lagos" />,
     },
     {
       id: 14,
-      Title: <img src={Bolt} alt="" />,
+      Title: <img src={Bolt} alt="bolt" />,
     },
     {
       id: 15,
-      Title: <img src={Mtn} alt="" />,
+      Title: <img src={Mtn} alt="mtn" />,
     },
     {
       id: 16,
-      Title: <img src={carbon} alt="" />,
+      Title: <img src={carbon} alt="carbon" />,
     },
   ];
   const ListImage3 = PaystackImg2.map((img3) => (
@@ -117,27 +117,27 @@ function Home() {
   const PaystackImg3 = [
     {
       id: 12,
-      Title: <img src={Axa} alt="" />,
+      Title: <img src={Axa} alt="Axamansard" />,
     },
     {
       id: 13,
-      Title: <img src={Abia} alt="" />,
+      Title: <img src={Abia} alt="Abia" />,
     },
     {
       id: 14,
-      Title: <img src={GIGM} alt="" />,
+      Title: <img src={GIGM} alt="GiGm" />,
     },
     {
       id: 15,
-      Title: <img src={IrokoTV} alt="" />,
+      Title: <img src={IrokoTV} alt="irokoTv" />,
     },
     {
       id: 16,
-      Title: <img src={Smile} alt="" />,
+      Title: <img src={Smile} alt="smile" />,
     },
     {
       id: 17,
-      Title: <img src={Cowrywise} alt="" />,
+      Title: <img src={Cowrywise} alt="cowrywise" />,
     },
   ];
   const ListImage4 = PaystackImg3.map((img4) => (
@@ -272,7 +272,7 @@ function Home() {
           </div>
         </div>
         <div>
-          <img id="suiteAPI" src={suiteAPI} alt="" />
+          <img id="suiteAPI" src={suiteAPI} alt="RobustSuiteApi" />
         </div>
       </div>
       <div className="section-6">
