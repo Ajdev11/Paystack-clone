@@ -144,11 +144,10 @@ function Home() {
     <li key={img4.id}>{img4.Title}</li>
   ));
 
-  useEffect(() => {
-    const tl = gsap
-      .timeline()
-      .from(".section-1", { opacity: 0, duration: 1, y: 100 });
-  });
+useEffect(()=>{
+  const tl = gsap.timeline()
+  .from('.section-1', {opacity:0, duration:1, y:100})
+})
   return (
     <div>
       <div className="bg-color">
