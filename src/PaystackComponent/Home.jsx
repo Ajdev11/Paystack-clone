@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import { gsap } from "gsap";
 import Navigation from "./Navigation";
 import { NavLink, Link } from "react-router-dom";
 import {
@@ -30,6 +31,7 @@ import {
   michael,
   otto,
 } from "./Image";
+import { useEffect } from "react";
 
 function Home() {
   const paystackImages = [
@@ -141,12 +143,18 @@ function Home() {
     <li key={img4.id}>{img4.Title}</li>
   ));
 
+  useEffect(() => {
+    const tl = gsap
+      .timeline()
+      .from(".section-1", { opacity: 0, duration: 1, y: 300 });
+  });
   return (
     <div>
       <div className="bg-color">
         <div className="logo-name">
           <Logo />
           <Navigation />
+          
         </div>
         <div className="section-1">
           <h1>
@@ -441,8 +449,8 @@ function Home() {
         </div>
         <div>
           <NavLink
-            id="create-border"
             className="create-free"
+            id="freeAccount"
             to="/create free account"
           >
             Create free account

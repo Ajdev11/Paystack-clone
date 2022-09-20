@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import naija from "../asset/Paystack images/naija.png"
 
 function Navigation() {
   return (
@@ -39,6 +40,13 @@ function Navigation() {
           to="/create free account"
         >
           Create free account
+        </Link>
+        
+      </div>
+      <div className="nation-icon">
+      <Link
+        to="/flag">
+        <img id="flag" src={naija} alt="" />
         </Link>
       </div>
     </div>

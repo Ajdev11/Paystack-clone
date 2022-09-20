@@ -30,6 +30,7 @@ function App() {
         <Route exact path="/pricing" element={<Pricing />} />
         <Route exact path="/customers" element={<Customers />} />
         <Route exact path="/whyPaystack" element={<WhyPaystack />} />
+        <Route exact path="/flag" element={<Home />} />
       </Routes>
     </div>
   );

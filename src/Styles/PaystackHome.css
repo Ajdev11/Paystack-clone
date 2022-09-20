@@ -7,23 +7,27 @@
 .bg-color {
   background-color: rgb(232, 242, 248);
   width: 100%;
-  height: 700px;
+  height: 750px;
 }
 .logo-name {
   display: flex;
+  width: 100%;
+  position: sticky;
+  top: 0;
 }
 .logo {
-  height: 30px;
+  height: 25px;
   margin: 30px;
+  margin-top: 25px;
 }
 .name {
-  margin-top: -15px;
+  margin-top: -5px;
   margin-left: -55px;
 }
 #Names {
   text-decoration: none;
-  font-size: 40px;
-  color: rgb(15, 15, 15);
+  font-size: 25px;
+  color: #011b33;
   font-weight: bolder;
 }
 .navBars {
@@ -35,16 +39,23 @@
 .create-free {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  color: rgb(15, 15, 15);
-  margin: 12px;
-  font-size: 19px;
+  color: #011b33;
+  margin: 17px;
+  font-size: 17px;
+  font-weight: bolder;
 }
 .NavLinks2 {
-  margin-left: 170px;
+  margin-left: 150px;
 }
 .links:hover,
 #right-nav:hover {
   color: rgb(7, 160, 221);
+}
+#flag{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-top: -10px;
 }
 .create-free {
   border: 1px solid #fff;
@@ -53,65 +64,55 @@
   background-color: rgb(33, 179, 33);
   padding: 15px;
 }
-#create-border:hover,
-#freeAccount:hover {
-  background-color: rgb(7, 160, 221);
-  color: rgb(15, 15, 15);
-  font-weight: bold;
-}
 #links-create-sales {
   display: flex;
   margin-top: 50px;
 }
 #freeAccount {
   margin: 0px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .sales-link {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: rgb(33, 179, 33);
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 30px;
-}
-.sales-link:hover {
-  color: rgb(15, 15, 15);
-  font-weight: bolder;
 }
 .section-1,
 .section-4 .section-5 .section-6 .section-7 .section-8,
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
+  color: #011b33;
 }
 .section-1 {
-  margin: 30px;
-  margin-top: 70px;
-  color: rgb(15, 15, 15);
+  margin: 60px;
+  margin-top: 100px;
 }
 .section-1 p {
   margin: 0px;
   margin-top: 25px;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5rem;
 }
 .section-2 {
   display: flex;
   justify-content: space-between;
-  margin: 30px;
-  margin-top: 100px;
+  margin: 60px;
+  margin-top: 195px;
 }
 .section-2 p {
   font-size: 20px;
-  color: rgb(15, 15, 15);
+  color: #011b33;
 }
 #mtn-officer {
   float: right;
-  line-height: 45px;
+  line-height: 1.5rem;
 }
 .section-2 h4 {
   font-family: "Montserrat", sans-serif;
-  font-size: 23px;
+  font-size: 17px;
   font-weight: normal;
 }
 .section-2 ul,
@@ -136,13 +137,13 @@ h1 {
   margin-left: 40px;
 }
 .section-3 {
-  margin: 30px;
+  margin: 60px;
   margin-top: 150px;
 }
 .section-3 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
-  color: rgb(27, 27, 43);
+  color: #011b33;
 }
 .section-3 p {
   margin: 0px;
@@ -162,8 +163,8 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
   margin-top: 30px;
-  word-spacing: 5px;
-  line-height: 25px;
+  letter-spacing: 0.04rem;
+  line-height: 1.5rem;
 }
 #Enjoy {
   margin-top: 30px;
@@ -199,7 +200,7 @@ p {
 #homeFooter {
   display: flex;
   justify-content: space-between;
-  margin: 30px;
+  margin: 60px;
   margin-top: 100px;
 }
 #detailed {
@@ -212,11 +213,12 @@ p {
 }
 .trusted {
   padding: 100px;
-  margin-left: -45px;
+  margin-left: -70px;
 }
 #GEL {
   display: flex;
   justify-content: space-evenly;
+ 
 }
 .GEL {
   border: 1px solid #fff;
@@ -236,16 +238,17 @@ p,
 #gellink {
   font-family: "Montserrat", sans-serif;
   margin: 15px;
+  color: #011b33;
 }
 #gellink {
   text-decoration: none;
   font-size: 19px;
   font-weight: bold;
-  color: rgb(15, 15, 15);
+  color: #011b33;
 }
 .section-8 {
   font-family: "Montserrat", sans-serif;
-  margin: 30px;
+  margin: 60px;
   margin-top: 100px;
 }
 #comp-logos {
