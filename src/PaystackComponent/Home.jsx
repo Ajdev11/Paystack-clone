@@ -30,6 +30,7 @@ import {
   patrick,
   michael,
   otto,
+  suiteAPI,
 } from "./Image";
 import { useEffect } from "react";
 
@@ -146,7 +147,7 @@ function Home() {
   useEffect(() => {
     const tl = gsap
       .timeline()
-      .from(".section-1", { opacity: 0, duration: 1, y: 300 });
+      .from(".section-1", { opacity: 0, duration: 1, y: 100 });
   });
   return (
     <div>
@@ -154,7 +155,6 @@ function Home() {
         <div className="logo-name">
           <Logo />
           <Navigation />
-          
         </div>
         <div className="section-1">
           <h1>
@@ -265,12 +265,14 @@ function Home() {
             <li>Retrieve all your transaction and customer data</li>
             <li>Verify the identity of customers</li>
           </ul>
+          <div className="payAPI">
           <NavLink className="paymentAPI" to="/paymentAPI">
             Payments API Quickstart
           </NavLink>
+          </div>
         </div>
         <div>
-          <h1>Icon here</h1>
+          <img id="suiteAPI" src={suiteAPI} alt="" />
         </div>
       </div>
       <div className="section-6">
