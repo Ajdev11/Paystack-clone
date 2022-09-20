@@ -4,6 +4,7 @@
   margin: 0px;
   padding: 0px;
 }
+@media (min-width: 768px) and (max-width:1400px){
 .bg-color {
   background-color: rgb(232, 242, 248);
   width: 100%;
@@ -363,4 +364,5 @@ p,
 }
 .footer1 #ctn {
   margin-top: 170px;
+}
 }
