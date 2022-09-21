@@ -67,15 +67,15 @@ function Home() {
     },
     {
       id: 7,
-      Title: <img src={Piggyvest} alt="Piggyvest" />,
+      Title: <img src={Piggyvest} alt="piggyvest" />,
     },
     {
       id: 8,
-      Title: <img src={ibomAir} alt="ibomAir" />,
+      Title: <img src={ibomAir} alt="ibomair" />,
     },
     {
       id: 9,
-      Title: <img src={kuda} alt="kuda" />,
+      Title: <img src={kuda} alt="Kuda" />,
     },
     {
       id: 10,
@@ -143,11 +143,10 @@ function Home() {
   const ListImage4 = PaystackImg3.map((img4) => (
     <li key={img4.id}>{img4.Title}</li>
   ));
-
-useEffect(()=>{
-  const tl = gsap.timeline()
-  .from('.section-1', {opacity:0, duration:1, y:100})
-})
+  useEffect(() => {
+    const tl = gsap.timeline();
+    tl.from(".section-1", { opacity: 0, duration: 1, y: 100 });
+  });
   return (
     <div>
       <div className="bg-color">
@@ -265,9 +264,9 @@ useEffect(()=>{
             <li>Verify the identity of customers</li>
           </ul>
           <div className="payAPI">
-          <NavLink className="paymentAPI" to="/paymentAPI">
-            Payments API Quickstart
-          </NavLink>
+            <NavLink className="paymentAPI" to="/paymentAPI">
+              Payments API Quickstart
+            </NavLink>
           </div>
         </div>
         <div>
