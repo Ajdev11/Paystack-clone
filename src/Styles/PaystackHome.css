@@ -42,7 +42,7 @@
     margin-left: -150px;
     color: #011b33;
   }
-  .developer ul.dropdown4{
+  .developer ul.dropdown4 {
     display: none;
     width: 300px;
     height: 100px;
@@ -51,7 +51,7 @@
     margin-left: 530px;
     color: #011b33;
   }
-  .developer ul.dropdown5{
+  .developer ul.dropdown5 {
     display: none;
     width: 300px;
     height: 100px;
@@ -60,7 +60,7 @@
     margin-left: 610px;
     color: #011b33;
   }
-  .developer ul.dropdown6{
+  .developer ul.dropdown6 {
     display: none;
     width: 300px;
     height: 100px;
@@ -69,7 +69,7 @@
     margin-left: 980px;
     color: #011b33;
   }
-  .developer ul.dropdown7{
+  .developer ul.dropdown7 {
     display: none;
     width: 300px;
     height: 100px;
@@ -84,7 +84,7 @@
   .links:hover ul.dropdown4,
   .links:hover ul.dropdown5,
   .links:hover ul.dropdown6,
-  .links:hover ul.dropdown7{
+  .links:hover ul.dropdown7 {
     display: block;
   }
   .flex-1 {
@@ -101,34 +101,34 @@
     justify-content: space-around;
     margin-top: 15px;
   }
-  .grid-1 #lagNig{
+  .grid-1 #lagNig {
     color: green;
     font-size: 18px;
   }
-  .grid-1 .sell{
+  .grid-1 .sell {
     font-size: 14px;
   }
-  .smallerIcons{
+  .smallerIcons {
     margin-top: -100px;
   }
-  .smallerIcons2{
+  .smallerIcons2 {
     margin-top: 50px;
   }
-  #logoIcon{
+  #logoIcon {
     width: 25px;
     height: 25px;
     border-radius: 50px;
     background-color: #011b33;
     margin-left: 500px;
   }
-  #logoIcon2{
+  #logoIcon2 {
     width: 25px;
     height: 25px;
     border-radius: 50px;
     background-color: #011b33;
     margin-left: 600px;
   }
-  #logoIcon3{
+  #logoIcon3 {
     width: 25px;
     height: 25px;
     border-radius: 50px;
@@ -136,7 +136,7 @@
     float: right;
     margin-right: 230px;
   }
-  #logoIcon4{
+  #logoIcon4 {
     width: 25px;
     height: 25px;
     border-radius: 50px;
