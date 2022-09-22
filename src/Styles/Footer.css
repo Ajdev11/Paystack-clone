@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+  #homeFooter {
+    margin-top: 250px;
+  }
+  #homeFooter ul {
+    list-style: none;
+    margin: 0px;
+    line-height: 30px;
+  }
+  #footer-links {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+  }
+  #hello {
+    text-decoration: none;
+    color: skyblue;
+  }
+  #homeFooter h4 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #homeFooter li {
+    font-size: 17px;
+  }
+  .footer4 #capetown {
+    margin-top: 255px;
+  }
+  .footer3 #san {
+    margin-top: 100px;
+  }
+  .footer2 #lagos {
+    margin-top: 70px;
+  }
+  .footer1 #ctn {
+    margin-top: 170px;
+  }
+}

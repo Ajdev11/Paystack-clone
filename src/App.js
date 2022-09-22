@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./Styles/PaystackHome.css";
+import "./Styles/Footer.css";
 import {
   Learn,
   Developers,

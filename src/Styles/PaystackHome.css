@@ -5,6 +5,70 @@
   padding: 0px;
 }
 @media (min-width: 768px) and (max-width: 1400px) {
+  .header{
+    background-color: rgba(14, 5, 5, 0.98);
+    background-size: cover;
+    width: 100%;
+  }
+  .header p{
+    margin: auto;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+  }
+  .bg-color {
+    background-color: rgb(232, 242, 248);
+    width: 100%;
+    height: 750px;
+  }
+  .logo-name {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  .logo {
+    height: 25px;
+    margin: 30px;
+    margin-top: 25px;
+  }
+  .name {
+    margin-top: -5px;
+    margin-left: -55px;
+  }
+  #Names {
+    text-decoration: none;
+    font-size: 25px;
+    color: #011b33;
+    font-weight: bolder;
+  }
+  .navBars {
+    margin: 30px;
+    display: flex;
+  }
+  .NavLinks {
+    margin-top: -15px;
+    display: flex;
+  }
+  .links,
+  #right-nav,
+  .create-free {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #011b33;
+    margin: 17px;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  .NavLinks2 {
+    display: flex;
+    margin-top: -15px;
+    margin-left: 120px;
+  }
+  .links:hover,
+  #right-nav:hover {
+    color: rgb(7, 160, 221);
+  }
   .developer ul {
     list-style: none;
   }
@@ -14,10 +78,10 @@
     line-height: 21px;
   }
   .developer ul.dropdown {
-    display: none;
+    
     width: 550px;
     height: 410px;
-    background-color: #fff;
+    background-color: black;
     position: absolute;
     margin-top: 5px;
     border-radius: 3px;
@@ -48,7 +112,7 @@
     height: 100px;
     position: absolute;
     margin-top: -65px;
-    margin-left: 530px;
+    margin-left: 480px;
     color: #011b33;
   }
   .developer ul.dropdown5 {
@@ -119,7 +183,7 @@
     height: 25px;
     border-radius: 50px;
     background-color: #011b33;
-    margin-left: 500px;
+    margin-left: 450px;
   }
   #logoIcon2 {
     width: 25px;
@@ -154,59 +218,6 @@
     color: #011b33;
     font-size: 16px;
     letter-spacing: 1px;
-  }
-  .bg-color {
-    background-color: rgb(232, 242, 248);
-    width: 100%;
-    height: 750px;
-  }
-  .logo-name {
-    display: flex;
-    width: 100%;
-    position: sticky;
-    top: 0;
-  }
-  .logo {
-    height: 25px;
-    margin: 30px;
-    margin-top: 25px;
-  }
-  .name {
-    margin-top: -5px;
-    margin-left: -55px;
-  }
-  #Names {
-    text-decoration: none;
-    font-size: 25px;
-    color: #011b33;
-    font-weight: bolder;
-  }
-  .navBars {
-    margin: 30px;
-    display: flex;
-  }
-  .NavLinks {
-    margin-top: -15px;
-    display: flex;
-  }
-  .links,
-  #right-nav,
-  .create-free {
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-    color: #011b33;
-    margin: 17px;
-    font-size: 17px;
-    font-weight: bolder;
-  }
-  .NavLinks2 {
-    display: flex;
-    margin-top: -15px;
-    margin-left: 120px;
-  }
-  .links:hover,
-  #right-nav:hover {
-    color: rgb(7, 160, 221);
   }
   #flag {
     width: 40px;
@@ -486,40 +497,5 @@
   }
   .try {
     margin-top: -70px;
-  }
-  #homeFooter {
-    margin-top: 250px;
-  }
-  #homeFooter ul {
-    list-style: none;
-    margin: 0px;
-    line-height: 30px;
-  }
-  #footer-links {
-    text-decoration: none;
-    color: rgb(15, 15, 15);
-  }
-  #hello {
-    text-decoration: none;
-    color: skyblue;
-  }
-  #homeFooter h4 {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  #homeFooter li {
-    font-size: 17px;
-  }
-  .footer4 #capetown {
-    margin-top: 255px;
-  }
-  .footer3 #san {
-    margin-top: 100px;
-  }
-  .footer2 #lagos {
-    margin-top: 70px;
-  }
-  .footer1 #ctn {
-    margin-top: 170px;
   }
 }

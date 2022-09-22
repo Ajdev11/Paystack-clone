@@ -295,7 +295,7 @@ function Navigation() {
               <ul className="grid-1">
                 <li>
                   <Link to="/">
-                  <img id="flag" src={logo} alt="others" />
+                    <img id="flag" src={logo} alt="others" />
                   </Link>{" "}
                 </li>
                 <li>
