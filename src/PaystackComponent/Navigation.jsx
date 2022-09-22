@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import naija from "../asset/Paystack images/naija.png";
 import ghana from "../asset/Paystack images/ghana.png";
 import sa from "../asset/Paystack images/sa.png";
+import logo from "../asset/Paystack images/logo.png";
 
 function Navigation() {
   return (
@@ -294,7 +295,7 @@ function Navigation() {
               <ul className="grid-1">
                 <li>
                   <Link to="/">
-                    <img id="flag" src={naija} alt="OthersFlag" />
+                  <img id="flag" src={logo} alt="others" />
                   </Link>{" "}
                 </li>
                 <li>

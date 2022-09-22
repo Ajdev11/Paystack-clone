@@ -42,22 +42,108 @@
     margin-left: -150px;
     color: #011b33;
   }
-  .links:hover ul.dropdown, .links:hover ul.dropdown2, .links:hover ul.dropdown3 {
+  .developer ul.dropdown4{
+    display: none;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 530px;
+    color: #011b33;
+  }
+  .developer ul.dropdown5{
+    display: none;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 610px;
+    color: #011b33;
+  }
+  .developer ul.dropdown6{
+    display: none;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 980px;
+    color: #011b33;
+  }
+  .developer ul.dropdown7{
+    display: none;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 1000px;
+    color: #011b33;
+  }
+  .links:hover ul.dropdown,
+  .links:hover ul.dropdown2,
+  .links:hover ul.dropdown3,
+  .links:hover ul.dropdown4,
+  .links:hover ul.dropdown5,
+  .links:hover ul.dropdown6,
+  .links:hover ul.dropdown7{
     display: block;
   }
-  .flex-1{
+  .flex-1 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
     font-size: 15px;
   }
-  .flex-1 h5{
+  .flex-1 h5 {
     color: #011b33;
   }
   .grid-1 {
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
+  }
+  .grid-1 #lagNig{
+    color: green;
+    font-size: 18px;
+  }
+  .grid-1 .sell{
+    font-size: 14px;
+  }
+  .smallerIcons{
+    margin-top: -100px;
+  }
+  .smallerIcons2{
+    margin-top: 50px;
+  }
+  #logoIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #011b33;
+    margin-left: 500px;
+  }
+  #logoIcon2{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #011b33;
+    margin-left: 600px;
+  }
+  #logoIcon3{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #011b33;
+    float: right;
+    margin-right: 230px;
+  }
+  #logoIcon4{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #011b33;
+    float: right;
+    margin-top: -450px;
+    margin-right: -50px;
   }
   .paragraph {
     margin: 0px;
@@ -172,7 +258,7 @@
     display: flex;
     justify-content: space-between;
     margin: 60px;
-    margin-top: 195px;
+    margin-top: -60px;
   }
   .section-2 p {
     font-size: 20px;
