@@ -1,29 +1,14 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Logo from "./Logo";
 import { gsap } from "gsap";
 import Navigation from "./Navigation";
 import { NavLink, Link } from "react-router-dom";
-import {
-  logo,
-  Dominos,
-  Mtn,
-  Bolt,
-  Axa,
-  global,
-  entrepreneur,
-  corporation,
-  Stripe,
-  Visa,
-  ycombinator,
-  patrick,
-  michael,
-  otto,
-  suiteAPI,
-} from "./Image";
-import { useEffect } from "react";
+import Section7 from "./Section7";
+import Section8 from "./Section8";
+import Section9 from "./Section9";
 import Footer from "./footer";
-import CompanyLogo from "./CompanyLogo";
 
+import { logo, Dominos, Mtn, Bolt, Axa, suiteAPI } from "./Image";
 function Home() {
   const paystackImages = [
     {
@@ -53,7 +38,9 @@ function Home() {
   return (
     <div>
       <div className="header">
-      <p>New: Sell your digital products with Storefronts and Products Links</p>
+        <p>
+          New: Sell your digital products with Storefronts and Products Links
+        </p>
       </div>
       <div className="bg-color">
         <div className="logo-name">
@@ -288,141 +275,9 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="section-7">
-        <div className="trusted">
-          <h1>Trusted by 70,000+ businesses</h1>
-          <p id="Para">
-            Thousands of organization of all sizes trust Paystack to grow their{" "}
-            <br />
-            business.
-          </p>
-        </div>
-        <div id="GEL">
-          <div className="GEL">
-            <img id="global-image" src={global} alt="" />
-            <h2>
-              Paystack for <br />
-              Global Brands
-            </h2>
-            <p>
-              We help global brands accept payments <br />
-              from across Africa
-            </p>
-            <br />
-            <br />
-            <Link id="gellink" to="/learn">
-              Learn
-            </Link>
-          </div>
-          <div className="GEL">
-            <img id="global-image" src={entrepreneur} alt="" />
-            <h2>
-              Paystack for <br />
-              Entrepreneurs
-            </h2>
-            <p>
-              From startup to scale-up, we can support <br />
-              you at every stage of your businesses <br />
-              growth
-            </p>
-            <br />
-            <Link id="gellink" to="/learn">
-              Learn
-            </Link>
-          </div>
-          <div className="GEL">
-            <img id="global-image" src={corporation} alt="" />
-            <h2>
-              Paystack for <br />
-              Large Organization
-            </h2>
-            <p>
-              Paystack helps many of the largest
-              <br />
-              corporate and government organizations <br />
-              in Nigeria get paid quickly and securely{" "}
-            </p>
-            <Link id="gellink" to="/learn">
-              Learn
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="section-8">
-        <h1>
-          Powering growth for amazing <br /> businesses
-        </h1>
-        <p id="Para">
-          Paystack is a great engine for a new generation of innovatives, <br />
-          forward-looking organizations operating in Africa.
-        </p>
-        <CompanyLogo />
-        <h1 id="globalPartner">
-          Backed by strong global <br />
-          partners
-        </h1>
-        <p id="Para">
-          Paystack is backed by notable investors as well as some of the best{" "}
-          <br />
-          payments companies on the planet.
-        </p>
-      </div>
-      <div className="section-9">
-        <div className="stripeVisaY">
-          <img id="Stripe" src={Stripe} alt="stripeIcon" />
-          <p>
-            Paystack is highly technical and financially
-            <br />
-            customer oriented. We're excited to back <br />
-            such people in one of the world's fastest- <br />
-            growing regions.
-          </p>
-          <div className="ceoTitle">
-            <img id="ceoIcon" src={patrick} alt="patrickIcon" />
-            <div className="pat-ceo">
-              <h3>Patrick Collison</h3>
-              <h6>CEO, Stripe</h6>
-            </div>
-          </div>
-        </div>
-        <div className="stripeVisaY">
-          <img id="visa" src={Visa} alt="" />
-          <p>
-            Our investment in Paystack aligns with the
-            <br />
-            kind of investments we look for- those that <br />
-            will help extend our reach into the global <br />
-            commerce ecosystem.
-          </p>
-          <div className="ceoTitle">
-            <img id="ceoIcon" src={otto} alt="visa" />
-            <div className="pat-ceo">
-              <h3>Otto Williams</h3>
-              <h6>
-                Head of Strategic Partnerships, Fintech & <br />
-                Ventures CEMEA, Visa
-              </h6>
-            </div>
-          </div>
-        </div>
-        <div className="stripeVisaY">
-          <img id="y" src={ycombinator} alt="Y" />
-          <p>
-            As YC's first Nigerian startup Paystack
-            <br />
-            leads the charge of great companies <br />
-            coming out of Africa, powering modern <br />
-            payments for an entire contienent.
-          </p>
-          <div className="ceoTitle">
-            <img id="ceoIcon" src={michael} alt="michael" />
-            <div className="pat-ceo">
-              <h3>Michael Seibel</h3>
-              <h6>CEO, Partner, Y Combinator</h6>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Section7 />
+      <Section8 />
+      <Section9 />
       <div className="section-10">
         <div className="try">
           <p>Try Paytstack Now</p> <br />
