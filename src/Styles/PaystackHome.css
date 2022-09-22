@@ -6,7 +6,6 @@
 }
 @media (min-width: 768px) and (max-width: 1400px) {
   .developer ul {
-    padding: 0;
     list-style: none;
   }
   .developer ul li {
@@ -23,20 +22,6 @@
     margin-top: 5px;
     border-radius: 3px;
   }
-  .links:hover ul.dropdown {
-    display: block;
-  }
-  .flex-1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    font-size: 15px;
-  }
-  .grid-1 {
-    display: grid;
-    justify-content: space-evenly;
-    margin-top: 15px;
-  }
   .developer ul.dropdown2 {
     display: none;
     width: 140px;
@@ -44,10 +29,35 @@
     background-color: #fff;
     position: absolute;
     margin-top: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
   }
-  .links:hover ul.dropdown2 {
+  .developer ul.dropdown3 {
+    display: none;
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: -150px;
+    color: #011b33;
+  }
+  .links:hover ul.dropdown, .links:hover ul.dropdown2, .links:hover ul.dropdown3 {
     display: block;
+  }
+  .flex-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  .flex-1 h5{
+    color: #011b33;
+  }
+  .grid-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
   }
   .paragraph {
     margin: 0px;

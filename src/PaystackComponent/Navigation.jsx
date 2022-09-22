@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import naija from "../asset/Paystack images/naija.png";
+import ghana from "../asset/Paystack images/ghana.png";
+import sa from "../asset/Paystack images/sa.png";
 
 function Navigation() {
   return (
@@ -265,8 +267,42 @@ function Navigation() {
         </Link>
       </div>
       <div className="nation-icon">
-        <Link to="/flag">
+        <Link className="links" to="/flag">
           <img id="flag" src={naija} alt="NigeriaFlag" />
+          <div className="developer">
+            <ul className="dropdown3">
+              <ul className="grid-1">
+                <li>
+                  <Link to="/">
+                    <img id="flag" src={ghana} alt="GhanaFlag" />
+                  </Link>{" "}
+                </li>
+                <li>
+                  <h4>Ghana</h4>
+                </li>
+              </ul>
+              <ul className="grid-1">
+                <li>
+                  <Link to="/">
+                    <img id="flag" src={sa} alt="SAFlag" />
+                  </Link>{" "}
+                </li>
+                <li>
+                  <h4>S.Africa</h4>
+                </li>
+              </ul>
+              <ul className="grid-1">
+                <li>
+                  <Link to="/">
+                    <img id="flag" src={naija} alt="OthersFlag" />
+                  </Link>{" "}
+                </li>
+                <li>
+                  <h4>Others</h4>
+                </li>
+              </ul>
+            </ul>
+          </div>
         </Link>
       </div>
     </div>
