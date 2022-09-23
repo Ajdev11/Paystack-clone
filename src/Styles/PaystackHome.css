@@ -78,7 +78,7 @@
     line-height: 21px;
   }
   .developer ul.dropdown {
-    
+    display: none;
     width: 550px;
     height: 410px;
     background-color: black;

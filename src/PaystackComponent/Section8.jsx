@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import CompanyLogo from "./CompanyLogo";
 
 function Section8() {
   return (
     <div>
-        <div className="section-8">
+      <div className="section-8">
         <h1>
           Powering growth for amazing <br /> businesses
         </h1>
@@ -24,7 +24,7 @@ function Section8() {
         </p>
       </div>
     </div>
-  )
+  );
 }
 
-export default Section8
+export default Section8;
