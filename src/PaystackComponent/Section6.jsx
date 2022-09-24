@@ -1,11 +1,15 @@
 import React from "react";
+import advanced from "../asset/Paystack images/advanced.mp4"
+
 
 function Section6() {
   return (
     <div>
       <div className="section-6">
-        <div>
-          <h1>Icon here</h1>
+        <div className="video-section">
+        <video className="video"  autoPlay loop muted >
+            <source src={advanced} type="video/mp4" />
+        </video>
         </div>
         <div>
           <h1>

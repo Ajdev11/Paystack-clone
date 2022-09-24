@@ -310,7 +310,14 @@
     font-weight: bold;
   }
   .gif{
-    width: 500px;
+    width: 530px;
+  }
+ 
+  .video{
+    width: 550px;
+  }
+  .video-section{
+    margin: 0px;
   }
   .section-4 .section-5 .section-6 .section-8,
   p {
@@ -338,6 +345,7 @@
     font-weight: bold;
     color: rgb(89, 89, 104);
     margin: 0px;
+    margin-top: 5px;
   }
   .success-rate,
   .paymentAPI {
