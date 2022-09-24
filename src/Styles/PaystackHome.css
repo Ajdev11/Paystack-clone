@@ -5,12 +5,12 @@
   padding: 0px;
 }
 @media (min-width: 768px) and (max-width: 1400px) {
-  .header{
+  .header {
     background-color: rgba(14, 5, 5, 0.98);
     background-size: cover;
     width: 100%;
   }
-  .header p{
+  .header p {
     margin: auto;
     color: #fff;
     font-size: 13px;
@@ -83,6 +83,7 @@
     height: 410px;
     background-color: black;
     position: absolute;
+    z-index: 999;
     margin-top: 5px;
     border-radius: 3px;
   }
@@ -112,7 +113,7 @@
     height: 100px;
     position: absolute;
     margin-top: -65px;
-    margin-left: 480px;
+    margin-left: 820px;
     color: #011b33;
   }
   .developer ul.dropdown5 {
@@ -183,7 +184,7 @@
     height: 25px;
     border-radius: 50px;
     background-color: #011b33;
-    margin-left: 450px;
+    margin-left: 800px;
   }
   #logoIcon2 {
     width: 25px;
