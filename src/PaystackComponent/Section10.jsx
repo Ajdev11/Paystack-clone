@@ -7,7 +7,7 @@ function Section10() {
       <div className="section-10">
         <div className="try">
           <p>Try Paytstack Now</p> <br />
-          <h1>
+          <h1 className="gsapElement">
             Start accepting payments in <br />
             just 30 minutes
           </h1>

@@ -15,11 +15,6 @@ import Footer from "./footer";
 function Home() {
   return (
     <div>
-      <div className="header">
-        <p>
-          New: Sell your digital products with Storefronts and Products Links
-        </p>
-      </div>
       <div className="bg-color">
         <div className="logo-name">
           <Logo />

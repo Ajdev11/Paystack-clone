@@ -5,21 +5,10 @@
   padding: 0px;
 }
 @media (min-width: 768px) and (max-width: 1400px) {
-  .header {
-    background-color: rgba(14, 5, 5, 0.98);
-    background-size: cover;
-    width: 100%;
-  }
-  .header p {
-    margin: auto;
-    color: #fff;
-    font-size: 13px;
-    text-align: center;
-  }
   .bg-color {
-    background-color: rgb(232, 242, 248);
+    background-color: #F1FEF4;
     width: 100%;
-    height: 750px;
+    height: 850px;
   }
   .logo-name {
     display: flex;
@@ -53,17 +42,16 @@
   .links,
   #right-nav,
   .create-free {
-    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     color: #011b33;
     margin: 17px;
-    font-size: 17px;
-    font-weight: bolder;
+    font-size: 16px;
+    font-weight: bold;
   }
   .NavLinks2 {
     display: flex;
     margin-top: -15px;
-    margin-left: 120px;
+    margin-left: 250px;
   }
   .links:hover,
   #right-nav:hover {
@@ -221,8 +209,8 @@
     letter-spacing: 1px;
   }
   #flag {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     border-radius: 50px;
     margin-top: -10px;
   }
@@ -230,7 +218,7 @@
     border: 1px solid #fff;
     border-radius: 5px;
     color: #fff;
-    background-color: rgb(33, 179, 33);
+    background-color: rgb(90, 187, 90);
     padding: 15px;
     margin-top: -2px;
   }
@@ -243,7 +231,6 @@
     font-size: 20px;
   }
   .sales-link {
-    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     color: rgb(33, 179, 33);
     font-size: 18px;
@@ -252,8 +239,8 @@
   .section-1,
   .section-4 .section-5 .section-6 .section-7 .section-8,
   h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 35px;
+    font-weight: bolder;
+    font-size: 45px;
     color: #011b33;
   }
   .section-1 {
@@ -273,7 +260,8 @@
     margin-top: -60px;
   }
   .section-2 p {
-    font-size: 20px;
+    font-size: 19px;
+    font-weight: bold;
     color: #011b33;
   }
   #mtn-officer {
@@ -281,9 +269,9 @@
     line-height: 1.5rem;
   }
   .section-2 h4 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 17px;
-    font-weight: normal;
+    color: #011b33;
+    font-size: 15px;
+    font-weight: bold;
   }
   .section-2 ul,
   .images {
@@ -311,33 +299,29 @@
     margin-top: 150px;
   }
   .section-3 h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     color: #011b33;
+    font-weight: bold;
   }
   .section-3 p {
     margin: 0px;
-    font-family: "Montserrat", sans-serif;
     font-size: 19px;
     margin-top: 20px;
-    color: rgb(89, 89, 104);
+    font-weight: bold;
   }
-  #section-4 {
-    background-color: rgb(232, 242, 248);
-    width: 50%;
-    height: 870px;
+  .gif{
+    width: 500px;
   }
   .section-4 .section-5 .section-6 .section-8,
   p {
     margin: 0px;
-    font-family: "Montserrat", sans-serif;
     font-size: 19px;
-    margin-top: 30px;
+    margin-top: 20px;
     letter-spacing: 0.04rem;
     line-height: 1.5rem;
   }
   #Enjoy {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   #Para {
     margin: 0px;
@@ -350,15 +334,13 @@
   .features-list ul li,
   .feature-2 {
     list-style-type: none;
-    line-height: 50px;
+    line-height: 30px;
     font-weight: bold;
     color: rgb(89, 89, 104);
     margin: 0px;
-    margin-top: 30px;
   }
   .success-rate,
   .paymentAPI {
-    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     color: rgb(33, 179, 33);
     font-size: 19px;
@@ -412,7 +394,6 @@
   h2,
   p,
   #gellink {
-    font-family: "Montserrat", sans-serif;
     margin: 15px;
     color: #011b33;
   }
@@ -423,7 +404,6 @@
     color: #011b33;
   }
   .section-8 {
-    font-family: "Montserrat", sans-serif;
     margin: 60px;
     margin-top: 100px;
   }
@@ -471,7 +451,6 @@
     margin-top: 40px;
   }
   .pat-ceo {
-    font-family: "Montserrat", sans-serif;
     margin-left: 20px;
   }
   .pat-ceo h6 {

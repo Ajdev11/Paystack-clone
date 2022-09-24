@@ -1,12 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import gif from "../asset/Paystack images/gif.gif"
 function Section4() {
   return (
     <div>
       <div className="section-4">
         <div id="section-4">
-          <h1>icon here</h1>
+          <h1>
+            <img className="gif" src={gif} alt="" />
+          </h1>
         </div>
         <div>
           <h1>
@@ -41,7 +43,6 @@ function Section4() {
             optimal channels, ensuring the highest transaction <br />
             success rates in the market
           </p>
-          <br />
           <br />
           <NavLink className="success-rate" to="/success Rate">
             Find out how we achieve high success rates
