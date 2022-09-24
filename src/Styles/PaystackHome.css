@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
 }
 @media (min-width: 768px) and (max-width: 1400px) {
   .bg-color {
-    background-color: #F1FEF4;
+    background-color: #f1fef4;
     width: 100%;
-    height: 850px;
+    height: 800px;
   }
   .logo-name {
     display: flex;
@@ -22,35 +22,37 @@
     margin-top: 25px;
   }
   .name {
-    margin-top: -5px;
+    margin-top: -10px;
     margin-left: -55px;
   }
   #Names {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #011b33;
     font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
   }
   .navBars {
     margin: 30px;
     display: flex;
   }
   .NavLinks {
-    margin-top: -15px;
+    margin-top: -20px;
     display: flex;
   }
   .links,
   #right-nav,
   .create-free {
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: #011b33;
     margin: 17px;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
   }
   .NavLinks2 {
     display: flex;
-    margin-top: -15px;
+    margin-top: -20px;
     margin-left: 250px;
   }
   .links:hover,
@@ -86,13 +88,13 @@
   }
   .developer ul.dropdown3 {
     display: none;
-    width: 200px;
-    height: 150px;
+    width: 140px;
+    height: 120px;
     background-color: #fff;
     position: absolute;
     margin-top: 5px;
     border-radius: 5px;
-    margin-left: -150px;
+    margin-left: -100px;
     color: #011b33;
   }
   .developer ul.dropdown4 {
@@ -236,18 +238,26 @@
     font-size: 18px;
     margin-left: 30px;
   }
-  .section-1,
+  .section-1 h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: #011b33;
+    font-family: 'Poppins', sans-serif;
+  }
   .section-4 .section-5 .section-6 .section-7 .section-8,
   h1 {
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 35px;
     color: #011b33;
+    font-family: 'Poppins', sans-serif;
   }
   .section-1 {
     margin: 60px;
     margin-top: 100px;
   }
   .section-1 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
     margin: 0px;
     margin-top: 25px;
     font-size: 20px;
@@ -257,12 +267,13 @@
     display: flex;
     justify-content: space-between;
     margin: 60px;
-    margin-top: -60px;
+    margin-top: 130px;
   }
   .section-2 p {
     font-size: 19px;
-    font-weight: bold;
+    font-weight: normal;
     color: #011b33;
+    font-family: 'Poppins', sans-serif;
   }
   #mtn-officer {
     float: right;
@@ -271,7 +282,8 @@
   .section-2 h4 {
     color: #011b33;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
   }
   .section-2 ul,
   .images {
@@ -299,25 +311,24 @@
     margin-top: 150px;
   }
   .section-3 h1 {
-    font-size: 45px;
+    font-size: 40px;
     color: #011b33;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
   }
   .section-3 p {
     margin: 0px;
-    font-size: 19px;
+    font-size: 18px;
     margin-top: 20px;
-    font-weight: bold;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
   }
-  .gif{
+  .gif {
     width: 530px;
   }
- 
-  .video{
+  .video {
     width: 550px;
-  }
-  .video-section{
-    margin: 0px;
+    margin-left: -40px;
   }
   .section-4 .section-5 .section-6 .section-8,
   p {
@@ -326,6 +337,8 @@
     margin-top: 20px;
     letter-spacing: 0.04rem;
     line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
   }
   #Enjoy {
     margin-top: 20px;
@@ -374,7 +387,7 @@
     margin-top: 60px;
   }
   .section-7 {
-    background-color: rgb(232, 242, 248);
+    background-color: #f1fef4;
     width: 100%;
     height: 700px;
   }
@@ -432,8 +445,8 @@
     margin: 30px;
     border: 1px solid rgb(232, 242, 248);
     border-radius: 5px;
-    width: 330px;
-    height: 250px;
+    width: 350px;
+    height: 280px;
     padding: 20px;
     margin-top: 50px;
   }

@@ -58,6 +58,7 @@ function Section9() {
             coming out of Africa, powering modern <br />
             payments for an entire contienent.
           </p>
+          <br />
           <div className="ceoTitle">
             <img id="ceoIcon" src={michael} alt="michael" />
             <div className="pat-ceo">

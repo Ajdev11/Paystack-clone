@@ -13,7 +13,7 @@ function Section1() {
       <div className="section-1">
         <div>
           <h1 className="gsapElement">
-            Modern Online and Offline <br />
+            Modern Online and offline <br />
             Payments for Africa
           </h1>
           <p className="gsapElement">

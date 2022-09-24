@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../asset/Paystack images/logo.png";
 //  font-family: "Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-//
+
 function Dropdown() {
   return (
     <div>
@@ -59,7 +59,7 @@ function Dropdown() {
                     Get paid from <span id="lagNig">Johannesburg</span>
                   </h4>
                   <span className="sell">
-                    Pyatscak grows with your
+                    Paystack grows with your
                     <br />
                     business
                   </span>

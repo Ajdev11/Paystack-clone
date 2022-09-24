@@ -6,11 +6,9 @@ function Section6() {
   return (
     <div>
       <div className="section-6">
-        <div className="video-section">
         <video className="video"  autoPlay loop muted >
             <source src={advanced} type="video/mp4" />
         </video>
-        </div>
         <div>
           <h1>
             Protect yourself and your <br />
