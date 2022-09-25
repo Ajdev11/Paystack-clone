@@ -392,17 +392,19 @@
     height: 700px;
   }
   .trusted {
-    padding: 100px;
-    margin-left: -70px;
+    padding: 90px;
+    margin-left: -20px;
   }
   #GEL {
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
   }
   .GEL {
+    font-weight: normal;
     border: 1px solid #fff;
     border-radius: 5px;
-    width: 430px;
+    width: 350px;
     height: 380px;
     background-color: #fff;
     margin-top: -60px;
@@ -418,9 +420,12 @@
     margin: 15px;
     color: #011b33;
   }
+ .GEL p{
+    font-size: 14px;
+  }
   #gellink {
     text-decoration: none;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
     color: #011b33;
   }
