@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 * {
   margin: 0px;
@@ -30,7 +30,7 @@
     font-size: 20px;
     color: #011b33;
     font-weight: bolder;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .navBars {
     margin: 30px;
@@ -43,7 +43,7 @@
   .links,
   #right-nav,
   .create-free {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
     color: #011b33;
     margin: 17px;
@@ -238,25 +238,25 @@
     font-size: 18px;
     margin-left: 30px;
   }
-  .section-1 h1{
+  .section-1 h1 {
     font-weight: bold;
     font-size: 45px;
     color: #011b33;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .section-4 .section-5 .section-6 .section-7 .section-8,
   h1 {
     font-weight: bolder;
     font-size: 35px;
     color: #011b33;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .section-1 {
     margin: 60px;
     margin-top: 100px;
   }
   .section-1 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     margin: 0px;
     margin-top: 25px;
@@ -273,7 +273,7 @@
     font-size: 19px;
     font-weight: normal;
     color: #011b33;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   #mtn-officer {
     float: right;
@@ -283,7 +283,7 @@
     color: #011b33;
     font-size: 15px;
     font-weight: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .section-2 ul,
   .images {
@@ -314,14 +314,14 @@
     font-size: 40px;
     color: #011b33;
     font-weight: bolder;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .section-3 p {
     margin: 0px;
     font-size: 18px;
     margin-top: 20px;
     font-weight: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .gif {
     width: 530px;
@@ -337,7 +337,7 @@
     margin-top: 20px;
     letter-spacing: 0.04rem;
     line-height: 1.5rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
   }
   #Enjoy {
@@ -398,7 +398,7 @@
   #GEL {
     display: flex;
     justify-content: space-evenly;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .GEL {
     font-weight: normal;
@@ -420,7 +420,7 @@
     margin: 15px;
     color: #011b33;
   }
- .GEL p{
+  .GEL p {
     font-size: 14px;
   }
   #gellink {
@@ -446,13 +446,26 @@
   #globalPartner {
     margin-top: 150px;
   }
+  .section-9 {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+  }
+  .section-9 p {
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .section-9 h6 {
+    font-weight: normal;
+    font-size: 13px;
+  }
   .stripeVisaY {
-    margin: 30px;
     border: 1px solid rgb(232, 242, 248);
     border-radius: 5px;
-    width: 350px;
-    height: 280px;
-    padding: 20px;
+    width: 340px;
+    height: 270px;
+    padding: 10px;
     margin-top: 50px;
   }
   #Stripe {
@@ -479,27 +492,11 @@
   .pat-ceo {
     margin-left: 20px;
   }
-  .pat-ceo h6 {
-    margin-top: 10px;
-  }
-  .section-9 {
-    display: flex;
-    justify-content: space-between;
-  }
-  .section-9 p {
-    font-size: 15px;
-    margin: 0px;
-    margin-top: 20px;
-  }
-  .section-9 h6 {
-    font-weight: normal;
-    font-size: 13px;
+  .section-10 {
+    margin-top: 200px;
   }
   .section-10 p {
     margin: 0px;
-  }
-  .section-10 {
-    margin-top: 200px;
   }
   .try {
     margin-top: -70px;

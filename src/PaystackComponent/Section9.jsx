@@ -11,7 +11,7 @@ import {
 function Section9() {
   return (
     <div>
-          <div className="section-9">
+        <div className="section-9">
         <div className="stripeVisaY">
           <img id="Stripe" src={Stripe} alt="stripeIcon" />
           <p>
@@ -58,7 +58,6 @@ function Section9() {
             coming out of Africa, powering modern <br />
             payments for an entire contienent.
           </p>
-          <br />
           <div className="ceoTitle">
             <img id="ceoIcon" src={michael} alt="michael" />
             <div className="pat-ceo">
