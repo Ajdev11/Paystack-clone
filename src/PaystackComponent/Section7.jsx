@@ -63,6 +63,7 @@ function Section7() {
               corporate and government organizations <br />
               in Nigeria get paid quickly and securely{" "}
             </p>
+            <br />
             <Link id="gellink" to="/learn">
               Learn
             </Link>
