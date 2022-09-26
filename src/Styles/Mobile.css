@@ -8,7 +8,7 @@
   .bg-color {
     background-color: #f1fef4;
     width: 100%;
-    height: 650px;
+    height: 550px;
   }
   .name,
   .logo,
@@ -24,19 +24,22 @@
   #axa {
     display: none;
   }
+  .section-1, .section-2{
+    margin: 15px;
+  }
   .section-1 {
-    margin: 10px;
-    margin-top: 100px;
+    margin: 15px;
+    margin-top: 60px;
     font-family: "Poppins", sans-serif;
   }
   .section-1 h1 {
     font-weight: bold;
-    font-size: 27px;
+    font-size: 28px;
     color: black;
   }
   .section-1 p {
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
     color: #05111d;
     margin-top: 13px;
     line-height: 1.3rem;
@@ -49,7 +52,8 @@
   .sales-link {
     font-family: "Poppins", sans-serif;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: normal;
   }
   .create-free {
     border: 1px solid #fff;
@@ -58,13 +62,15 @@
     background-color: rgb(58, 204, 58);
     padding: 9px;
   }
+  .sales{
+    margin-top: 20px;
+  }
   .sales-link {
     color: rgb(58, 204, 58);
   }
   .section-2 {
     display: grid;
-    margin: 10px;
-    margin-top: 200px;
+    margin-top: 100px;
   }
   .section-2 h4 {
     color: #011b33;

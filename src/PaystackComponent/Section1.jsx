@@ -30,9 +30,9 @@ function Section1() {
                 Create free account
               </NavLink>
             </div>
-            <div>
+            <div className="sales">
               <NavLink className="sales-link" to="/contact Sales">
-                Or Contact sales
+                or Contact Sales
               </NavLink>
             </div>
           </div>
