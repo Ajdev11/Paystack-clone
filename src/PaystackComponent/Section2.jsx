@@ -29,6 +29,7 @@ function Section2() {
             <h4>Trusted by over 60,000 businesses</h4>
             <ul className="images">{listIcons}</ul>
           </div>
+          <div className='line1'></div>
           <p>
             Watch MTN Chief Transformation Officer, Olubayo <br />
             <span id="mtn-officer">
