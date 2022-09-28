@@ -12,7 +12,7 @@ function Section10() {
             just 30 minutes
           </h1>
         </div>
-        <div>
+        <div className="sales2">
           <NavLink
             className="create-free"
             id="freeAccount"
