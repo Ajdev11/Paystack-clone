@@ -1,4 +1,4 @@
-import { React } from "react";
+import { React, useEffect, useState } from "react";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import Section1 from "./Section1";
@@ -13,12 +13,23 @@ import Section10 from "./Section10";
 import Footer from "./footer";
 import logo2 from "../asset/Paystack images/logo2.png";
 
+
 function Home() {
+ // const[navbarOpen, setNavbarOpen] = useState(false)
+useEffect(()=>{
+  const menu_btn = document.querySelector('.menu_bar');
+  //const mobile_menu = document.querySelector('.mobile-nav');
+      menu_btn.addEventListener('click', function() {
+      menu_btn.classList.toggle('is-active');
+    //  mobile_menu.classList.toggle('is-active');
+  });
+}, [])
+
   return (
     <div>
       <div className="fixed-header">
         <div className="menu-border">
-        <img className="logo2" src={logo2} alt="mobile-logo" />
+          <img className="logo2" src={logo2} alt="mobile-logo" />
           <button className="menu_bar">
             <div className="bar"></div>
           </button>
