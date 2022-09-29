@@ -11,10 +11,20 @@ import Section8 from "./Section8";
 import Section9 from "./Section9";
 import Section10 from "./Section10";
 import Footer from "./footer";
+import logo2 from "../asset/Paystack images/logo2.png";
 
 function Home() {
   return (
     <div>
+      <div className="fixed-header">
+        <div className="menu-border">
+        <img className="logo2" src={logo2} alt="mobile-logo" />
+          <button className="menu_bar">
+            <div className="bar"></div>
+          </button>
+        </div>
+        <div className="header-border"></div>
+      </div>
       <div className="bg-color">
         <div className="logo-name">
           <Logo />

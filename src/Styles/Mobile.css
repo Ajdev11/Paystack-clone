@@ -5,10 +5,66 @@
   padding: 0px;
 }
 @media (min-width: 320px) and (max-width: 768px) {
+  .logo2 {
+    width: 30px;
+    margin: 15px;
+    position: relative;
+  }
+ .menu-border{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+ }
+  .menu_bar {
+    position: relative;
+    display: block;
+    position: relative;
+    width: 30px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+  }
+  .menu_bar .bar,
+  .menu_bar:after,
+  .menu_bar:before {
+    width: 25px;
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+    margin: 5px -25px;
+    transition: 0.3s;
+    border-radius: 1px;
+    transform: rotate(180deg) translate(8px, 8px);
+  }
+  .menu_bar.is-active:before {
+    transform: rotate(180deg) translate(-18px, 18px);
+  }
+  .menu_bar.is-active:after {
+    transform: rotate(45deg) translate(-15px, -15px);
+  }
+  .menu_bar.is-active .bar {
+    opacity: 0;
+  }
+  .header-border {
+    width: 100%;
+    background-color: rgb(196, 192, 192);
+    height: 0.2px;
+    opacity: 0.4;
+  }
   .bg-color {
     background-color: #f1fef4;
     width: 100%;
-    height: 550px;
+    height: 650px;
+  }
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    background-color: #f1fef4;
+    width: 100%;
   }
   .name,
   .logo,
@@ -50,7 +106,7 @@
   }
   .section-1 {
     margin: 15px;
-    margin-top: 60px;
+    padding-top: 140px;
     font-family: "Poppins", sans-serif;
   }
   .section-1 h1 {
@@ -84,7 +140,7 @@
   }
   .section-2 {
     display: grid;
-    margin-top: 100px;
+    margin-top: 90px;
   }
   .section-2 h4 {
     color: #011b33;
@@ -136,7 +192,6 @@
     font-weight: bolder;
     font-family: "Poppins", sans-serif;
   }
-
   .section-4,
   .section-6,
   #detailed {
@@ -146,7 +201,7 @@
     margin-top: 30px;
   }
   .gif {
-    width: 300px;
+    width: 100%;
   }
   .features-list {
     display: grid;
@@ -179,7 +234,7 @@
   }
   #suiteAPI {
     margin-top: 40px;
-    width: 325px;
+    width: 100%;
     height: 410px;
   }
   .section-7 {
@@ -209,6 +264,12 @@
     background-color: #fff;
     padding: 20px;
     margin-top: 40px;
+  }
+  #gellink {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #011b33;
   }
   .section-8,
   #globalPartner {
@@ -254,7 +315,7 @@
   .section-10 {
     margin-top: 70px;
   }
-  .try{
+  .try {
     text-align: center;
   }
   .sales2 {
