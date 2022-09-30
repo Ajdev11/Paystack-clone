@@ -1,4 +1,5 @@
-import { React, useEffect, useState } from "react";
+import { React, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import Section1 from "./Section1";
@@ -13,17 +14,15 @@ import Section10 from "./Section10";
 import Footer from "./footer";
 import logo2 from "../asset/Paystack images/logo2.png";
 
-
 function Home() {
- // const[navbarOpen, setNavbarOpen] = useState(false)
-useEffect(()=>{
-  const menu_btn = document.querySelector('.menu_bar');
-  //const mobile_menu = document.querySelector('.mobile-nav');
-      menu_btn.addEventListener('click', function() {
-      menu_btn.classList.toggle('is-active');
-    //  mobile_menu.classList.toggle('is-active');
-  });
-}, [])
+  useEffect(() => {
+    const menu_btn = document.querySelector(".menu_bar");
+    const mobile_menu = document.querySelector(".mobile-nav");
+    menu_btn.addEventListener("click", function () {
+      menu_btn.classList.toggle("is-active");
+      mobile_menu.classList.toggle("is-active");
+    });
+  }, []);
 
   return (
     <div>
@@ -36,6 +35,38 @@ useEffect(()=>{
         </div>
         <div className="header-border"></div>
       </div>
+
+      <div className="mobile-nav">
+        <Link className="links" to="/whyPaystack">
+          WhyPaystack
+        </Link>
+        <Link className="links" to="/customers">
+          Customers
+        </Link>
+        <Link className="links" to="/pricing">
+          Pricing
+        </Link>
+        <Link className="links" to="/pricing">
+          Learn
+        </Link>
+        <Link className="links" to="/pricing">
+          Developers
+        </Link>
+        <Link className="links" to="/pricing">
+          Support
+        </Link>
+        <Link id="log" className="links" to="/pricing">
+          Login
+        </Link>
+        <Link
+          id="create-border"
+          className="menu-free"
+          to="/create free account"
+        >
+          Create free account
+        </Link>
+      </div>
+
       <div className="bg-color">
         <div className="logo-name">
           <Logo />
