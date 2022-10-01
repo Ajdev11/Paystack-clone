@@ -16,11 +16,11 @@ import logo2 from "../asset/Paystack images/logo2.png";
 
 function Home() {
   useEffect(() => {
-    const menu_btn = document.querySelector(".menu_bar");
-    const mobile_menu = document.querySelector(".mobile-nav");
-    menu_btn.addEventListener("click", function () {
-      menu_btn.classList.toggle("is-active");
-      mobile_menu.classList.toggle("is-active");
+    const menu = document.querySelector(".menu_bar");
+    const mobile = document.querySelector(".mobile-nav");
+    menu.addEventListener("click", function () {
+      menu.classList.toggle("is-active");
+      mobile.classList.toggle("is-active");
     });
   }, []);
 
@@ -66,7 +66,6 @@ function Home() {
           Create free account
         </Link>
       </div>
-
       <div className="bg-color">
         <div className="logo-name">
           <Logo />
