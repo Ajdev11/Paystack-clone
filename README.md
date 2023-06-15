@@ -6,7 +6,7 @@
 
 - Created three stylesheet for the `HomePage, Mobile-responsiveness and the Footer`
 
-- Made several components for each sections
+- Made several components for each sections..
 
 - The images has a separate file named `Image.jsx` which was however exported to make the architecture more simpler
 
