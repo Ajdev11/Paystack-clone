@@ -1,6 +1,6 @@
  `CLONED PAYSTACK LANDING PAGE` 
 
-- Built with `React`
+- Built with `React`.
 
 - Provided the navigations for different, However the `Navigation` pages are responsive
 
